@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.ityang.smartnews.ui.NoScrollViewPager
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/fg_main_vp"
+        android:layout_height="0dp"/>
+
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_tab_home_selector"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_smart"
+            style="@style/BottomTabStyle"
+
+            android:drawableTop="@drawable/btn_tab_smart_selector"
+            android:text="服务" />
+
+        <RadioButton
+            android:id="@+id/rb_gov"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_tab_gov_selector"
+            android:text="政务" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_tab_setting_selector"
+            android:text="高级功能" />
+
+
+    </RadioGroup>
+
+
+</LinearLayout>

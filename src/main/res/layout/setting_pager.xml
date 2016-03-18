@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="语音聊天机器人"
+        android:textSize="26sp"
+        android:textColor="@drawable/selector_newguide_btn_tv"
+        android:background="@drawable/selector_newguide_btn"
+        android:id="@+id/voice_chat"
+        android:drawableLeft="@android:drawable/ic_btn_speak_now"
+        android:layout_marginTop="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_height="0.3dp"
+        android:background="#aa0000ff"/>
+
+</LinearLayout>

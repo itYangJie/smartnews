@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ityang.smartnews.NewGuideActivity">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/newguide_vp"
+        />
+
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:text="立即体验"
+        android:id="@+id/newguide_btn"
+        android:textColor="@drawable/selector_newguide_btn_tv"
+        android:background="@drawable/selector_newguide_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="23sp"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/rl_dots"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/ll_dots"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
